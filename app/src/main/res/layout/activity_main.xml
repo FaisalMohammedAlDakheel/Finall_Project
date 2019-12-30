@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="15dp">
+    <Button
+        android:id="@+id/btnGoLocalList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:padding="12dp"
+        android:textColor="#FFF"
+        android:layout_gravity="left"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="16sp"
+        android:background="@drawable/btn_local_db"
+        android:text="Local Database"/>
+    <Button
+        android:id="@+id/btnGoRemoteList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:padding="12dp"
+        android:textColor="#FFF"
+        android:layout_gravity="right"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="16sp"
+        android:background="@drawable/btn_remote_db"
+        android:text="Remote Database"/>
+</FrameLayout>
+    <Button
+        android:id="@+id/btnSyncDbs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:padding="12dp"
+        android:layout_marginTop="15dp"
+        android:textColor="#FFF"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="16sp"
+        android:background="@drawable/btn_sync_db"
+        android:text="Sync Databases"/>
+</LinearLayout>

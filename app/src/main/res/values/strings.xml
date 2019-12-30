@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TutorialApp</string>
+
+    <string name="insert_new_person">https://swindled-slot.000webhostapp.com/tutorial/insertPerson.php</string>
+    <string name="get_all_person">https://swindled-slot.000webhostapp.com/tutorial/getAllPersons.php</string>
+    <string name="delete_person_by_id">https://swindled-slot.000webhostapp.com/tutorial/deletePerson.php</string>
+    <string name="search_person_by_name">https://swindled-slot.000webhostapp.com/tutorial/searchByName.php</string>
+    <string name="update_person_by_id">https://swindled-slot.000webhostapp.com/tutorial/updatePerson.php</string>
+</resources>
